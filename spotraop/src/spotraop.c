@@ -57,7 +57,7 @@ int32_t				glLogLimit = -1;
 uint32_t			glNetmask;
 uint16_t			glPortBase, glPortRange;
 char 				glInterface[128] = "?";
-char				glExcludedModels[STR_LEN] = "aircast,airupnp,shairtunes2,airesp32,";
+char				glExcludedModels[STR_LEN] = "aircast,airupnp,airesp32,";
 char				glIncludedNames[STR_LEN];
 char				glExcludedNames[STR_LEN];
 struct sMR			glMRDevices[MAX_RENDERERS];
