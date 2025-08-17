@@ -1,3 +1,7 @@
+This fork simply removes shairtunes2 from the Excluded models in spotraop.c.  This change allows the use of SpotConnect with the shairtunes2 LMS/Lyrion plugin.  This is currently needed to work around the fact that the latest working Spotty plugin does not have connect capabilities.  It is also needed for me as for some reason the spotupnp player with picoreplayers will only play one track and then stop.
+
+The config.xml file generated on first usage will need major editing to add names for all your players as well as having the encoding option to "yes".
+
 # SpotConnect: Enable Spotify Connect for UPnP and AirPlay devices 
 Use these applications to add Spotify Connect capabilities to UPnP (like Sonos) or AirPlay players. Respectively **spotupnp** for UPnP and **spotraop** for AirPlay
 
